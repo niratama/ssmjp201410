@@ -1,0 +1,7 @@
+roles:
+        even:
+                - conoha01.poi.jp
+                - conoha03.poi.jp
+        odd:
+                - conoha02.poi.jp
+

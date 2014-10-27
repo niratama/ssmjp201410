@@ -1,0 +1,129 @@
+@media screen {
+  #progress-panel {
+    position: absolute;
+    color: #fff;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    overflow: hidden;
+    z-index: 100;
+  }
+  #progress-panel .bar-container {
+    width: 100%;
+    height: 4px;
+    background: #fff;
+  }
+  #progress-panel .bar-container .bar-timer {
+    width: 0%;
+    height: 4px;
+    background: #f00;
+  }
+  #progress-panel .bar-container .bar-page {
+    width: 0%;
+    height: 4px;
+    background: #00f;
+  }
+  #tweet-panel {
+    position: absolute;
+    font-size: 24px;
+    color: #ddd;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    z-index: 100;
+  }
+  #tweet-panel .tweet {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  #tweet-panel .tweet .margin-container {
+    margin: 4px;
+    box-sizing: border-box;
+  }
+  #tweet-panel .tweet .margin-container .avatar {
+    width: 48px;
+    height: 48px;
+    margin: 4px;
+    float: left;
+  }
+  #tweet-panel .tweet .margin-container .names {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  #template {
+    display: none;
+  }
+}
+@media print {
+  #progress-panel {
+    display: none;
+  }
+  #tweet-panel {
+    display: none;
+  }
+  #template {
+    display: none;
+  }
+}
+.remark-slide-content {
+  font-size: 32px;
+  background: #000;
+  color: #eee;
+  padding: 1em 1em 1em 1em;
+}
+.remark-slide-content h1,
+.remark-slide-content h2,
+.remark-slide-content h3 {
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.remark-slide-content h1 {
+  font-size: 2.6em;
+}
+.remark-slide-content h2 {
+  font-size: 1.6em;
+}
+.remark-slide-content h3 {
+  font-size: 1.2em;
+}
+.remark-slide-content .red {
+  color: #fa0000;
+}
+.remark-slide-content .large {
+  font-size: 1.6em;
+}
+.remark-slide-content .small {
+  font-size: 0.8em;
+}
+.remark-slide-content .pull-right {
+  text-align: right;
+}
+.remark-slide-content .float-right {
+  float: right;
+}
+.remark-slide-content a,
+.remark-slide-content a > code {
+  color: #f8c;
+  text-decoration: none;
+}
+.remark-slide-content code.remark-inline-code {
+  color: #00c;
+  font-size: 24px;
+  padding: 4px;
+}
+.remark-slide-content code {
+  -moz-border-radius: 5px;
+  -web-border-radius: 5px;
+  background: #e7e8e2;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.remark-slide-content .remark-slide-number {
+  visibility: hidden;
+}
